@@ -1,0 +1,42 @@
+---
+arch: 'resnet50'
+batch_size: 128
+num_epoch: 120
+dataset: 'imagenet'
+num_classes: 1000
+crop_size: 224
+crop_interpolation: 2 ### 2: BILINEAR, 3:CUBIC
+use_cosine_lr: True
+cosine_lr_min: 0.0
+warmup_epochs: 5
+lr: 0.1
+lr_scale_factor: 256
+lr_milestones: [30, 60, 90, 100]
+momentum: 0.9
+wd: 0.0001
+nesterov: False
+activation_mode: 0 ### 1: leakyReLU, 2: , other: ReLU
+norm_name: 'MixtureBatchNorm2d'
+norm_groups: 32
+norm_k: [10, 10, 20, 20]
+norm_attention_mode: 2
+norm_zero_gamma_init: True
+norm_all_mix: False
+dataaug:
+    imagenet_extra_aug: False ###ColorJitter and PCA
+    labelsmoothing_rate: 0.0
+    mixup_rate: 0.0
+stem:
+    imagenet_head7x7: True
+    stem_kernel_size: 7
+    stem_stride: 2
+    replace_maxpool_with_res_bottleneck: False
+resnet:
+    base_inplanes: 64
+    replace_stride_with_dilation: [False, False, False]
+    replace_stride_with_avgpool: False
+    extra_norm_ac: False
+
+
+
+
