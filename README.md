@@ -98,7 +98,7 @@ See more configuration files in [configs](https://github.com/iVMCL/AOGNet-v2/tre
 
 
 ## Object Detection and Instance Segmentation on COCO
-We performed object detection and instance segmentation task on COCO with our models pretrained on ImageNet. We implement it based on the [mmdetection](https://github.com/open-mmlab/mmdetection) framework. The code is released in [https://github.com/iVMCL/AttentiveNorm_Detection/tree/master/configs/attn_norm(https://github.com/iVMCL/AttentiveNorm_Detection/tree/master/configs/attn_norm).
+We performed object detection and instance segmentation task on COCO with our models pretrained on ImageNet. We implement it based on the [mmdetection](https://github.com/open-mmlab/mmdetection) framework. The code is released in [https://github.com/iVMCL/AttentiveNorm_Detection/tree/master/configs/attn_norm](https://github.com/iVMCL/AttentiveNorm_Detection/tree/master/configs/attn_norm).
 
 ## Citations
 Please consider citing the AOGNets or Attentive Normalization papers in your publications if it helps your research.
