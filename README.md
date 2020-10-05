@@ -1,6 +1,8 @@
 
 # AOGNet-v2
 
+Please check our refactorized code at [iVMCL-Release](https://github.com/iVMCL/iVMCL-Release).
+
 This project provides source code for [AOGNets: Compositional Grammatical Architectures for Deep Learning
 ](https://arxiv.org/abs/1711.05847)(CVPR 2019) and [Attentive Normalization](https://arxiv.org/abs/1908.01259).
 
